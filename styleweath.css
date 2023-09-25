@@ -1,0 +1,94 @@
+/* Add your CSS styles here */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url("weather\ img.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+
+}
+.borderline{
+    width:800px;
+    height:430px;
+    border:10px rgb(0, 0, 0);
+    border-style:groove;
+    
+}
+
+.container {
+    text-align: center;
+    margin-top: 150px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+input:hover{
+    border:3px solid black;
+    border-radius:5px;
+    }
+
+
+
+
+
+h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    margin: 3rem;
+    
+    color:black;
+    
+   }
+   .content{
+    font-size:22px;
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function:linear;
+    
+    
+   }
+   .content:hover{
+    font-size:26px;
+   }
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style:solid ;
+    border-radius:5px;
+    
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0066ffe0;
+    color: black;
+    font-weight:bolder;
+    font-style:italic;
+    border: none;
+    cursor: pointer;
+    border-radius:5px;
+}
+button:hover{
+    border:3px solid black;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:blue;
+    font-size:x-large;
+}
